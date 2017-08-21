@@ -1,5 +1,5 @@
 h1 {
-	color: blue;
+	color: green;
 	text-align: center;
 }
 
@@ -7,13 +7,38 @@ button {
 	margin: 0 auto;
 	display: block;
 	font-size: 20px;
+	clear: left;
 }
 
 #container {
-	border: 1px solid red;
 	height: 100%;
 }
 
 .person {
+	float: left;
 	border: 1px solid green;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	/*padding-top: 50px;*/
+	display: inline-block;
+	box-sizing: border-box;
+	overflow: scroll;
+}
+
+.inactive {
+	visibility: hidden;
+}
+
+.friend {
+	float: left;
+	border: 1px solid green;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	/*padding-top: 50px;*/
+	display: inline-block;
+	box-sizing: border-box;
+	overflow: scroll;
+
 }
