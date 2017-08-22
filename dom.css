@@ -1,6 +1,11 @@
 h1 {
-	color: green;
+	color: black;
 	text-align: center;
+	margin-bottom: 50px
+}
+
+h3 {
+	color: red;
 }
 
 button {
@@ -8,22 +13,39 @@ button {
 	display: block;
 	font-size: 20px;
 	clear: left;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: white;
 }
 
 #container {
 	height: 100%;
 }
 
+
+.friendInfoDiv {
+	border: 0.5px solid black;
+	border-radius: 5px;
+}
+
 .person {
 	float: left;
-	border: 1px solid green;
+	border: 2px solid black;
+	box-shadow: 10px 10px 5px #888888;
 	width: 200px;
 	height: 200px;
 	text-align: center;
-	/*padding-top: 50px;*/
+	padding: 10px;
 	display: inline-block;
 	box-sizing: border-box;
 	overflow: scroll;
+	margin-bottom: 20px;
+}
+
+
+.info-style{
+	color: black;
 }
 
 .inactive {
